@@ -15,7 +15,7 @@ public class DemoJenkis {
 	private Collection<String> collection;
 	 
 	 @BeforeClass
-	 public void oneTimeSetUp() {
+	 public void oneTimeSetUp() { 
 	  // one-time initialization code
 	  System.out.println("@BeforeClass - oneTimeSetUp");
 	 }
